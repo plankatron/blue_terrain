@@ -34,7 +34,7 @@
           "maxblur": 0.005
         },
         "bloom": {
-          "strength": 0.2,
+          "strength": 0.4,
           "radius": 0.5,
           "threshold": 0.8
         }
@@ -54,9 +54,15 @@
         0,
         0
       ],
-      "physics": false,
-      "start_url": "./grass.glb",
-      "dynamic": true
+      "start_url": "./grass.glb"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "./wall.glb"
     },
     {
       "position": [
