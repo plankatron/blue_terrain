@@ -21,7 +21,7 @@
       "content": {
         "fog": {
           "fogType": "exp",
-          "args": [[0, 150, 180], 0.01]
+          "args": [[50, 15, 150], 0.01]
         },
         "ssao": {
           "kernelRadius": 16,
@@ -54,7 +54,8 @@
         0,
         0
       ],
-      "start_url": "./grass.glb"
+      "start_url": "./grass.glb",
+      "physics": false
     },
     {
       "position": [
